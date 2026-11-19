@@ -23,6 +23,9 @@ treinamento gamificado de 8 semanas. Os dados vêm diretamente da planilha de ge
   e referências de segurança para hipertensos e diabéticos.
 - **Ranking**: leaderboard por XP, semanas com presença 100%, regras de XP, badges e
   escada de avatares.
+- **Instrutor**: painel de todos os alunos (PA, duplo produto, recuperação, síndrome
+  metabólica, equilíbrio T.A.S.V.M.), alertas automáticos de saúde/adesão e exportação
+  CSV (alunos, ranking, frequência/XP, triagem metabólica, volume load) + PDF via impressão.
 
 ## Como rodar
 
@@ -46,3 +49,8 @@ Força Máxima → Potência Funcional. Sessões de 60 min com 4 blocos (Prepara
 Neuromuscular I, Neuromuscular II e Cardiometabólico) + recuperação ativa aos sábados.
 Gamificação: XP por presença/meta/zona de FC, streak semanal, badges, avatares estilo
 super-herói e ranking com desempate.
+
+## Deploy (GitHub Pages)
+
+O push na `main` dispara o workflow `.github/workflows/deploy.yml`, que faz o build e
+publica automaticamente em GitHub Pages.

@@ -8,6 +8,7 @@ const ITENS = [
   ['bem-estar', '😴', 'Bem-Estar'],
   ['saude', '🩺', 'Saúde'],
   ['ranking', '🏆', 'Ranking'],
+  ['instrutor', '🧑‍🏫', 'Instrutor'],
 ]
 
 export default function Layout({ aluno, rota, onSair, children }) {

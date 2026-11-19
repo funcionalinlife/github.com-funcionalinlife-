@@ -8,6 +8,7 @@ import Avaliacoes from './pages/Avaliacoes.jsx'
 import BemEstar from './pages/BemEstar.jsx'
 import Saude from './pages/Saude.jsx'
 import Ranking from './pages/Ranking.jsx'
+import Instrutor from './pages/Instrutor.jsx'
 import { db } from './data.js'
 
 const rotas = {
@@ -18,6 +19,7 @@ const rotas = {
   'bem-estar': BemEstar,
   saude: Saude,
   ranking: Ranking,
+  instrutor: Instrutor,
 }
 
 function useHashRoute() {
