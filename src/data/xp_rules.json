@@ -1,0 +1,56 @@
+[
+ {
+  "regra": "Presença em sessão principal (seg-sex)",
+  "pontosxp": "10",
+  "descri_o": "O aluno ganha 10 XP a cada sessão principal concluída (marcada como presente).",
+  "observa_o": "Base do sistema"
+ },
+ {
+  "regra": "Presença em sessão de recuperação (sábado)",
+  "pontosxp": "8",
+  "descri_o": "Sessão de menor intensidade, ainda assim recompensada para manter o engajamento.",
+  "observa_o": "Sábados"
+ },
+ {
+  "regra": "Meta do dia atingida",
+  "pontosxp": "8",
+  "descri_o": "Bônus quando o aluno atinge o objetivo específico daquela sessão (registrado pelo instrutor).",
+  "observa_o": "Opcional por sessão"
+ },
+ {
+  "regra": "Zona de FC alvo atingida",
+  "pontosxp": "5",
+  "descri_o": "Bônus quando o aluno treina dentro da zona de frequência cardíaca calculada para o seu objetivo (ver aba Zonas_FC).",
+  "observa_o": "Novo - opcional por sessão"
+ },
+ {
+  "regra": "Sequência semanal perfeita (streak)",
+  "pontosxp": "20",
+  "descri_o": "Bônus por completar todas as sessões previstas em uma semana (5 dias úteis + recuperação).",
+  "observa_o": "Somado 1x por semana"
+ },
+ {
+  "regra": "Recorde pessoal",
+  "pontosxp": "10",
+  "descri_o": "Bônus quando o aluno supera uma marca anterior (carga, reps, tempo).",
+  "observa_o": "Registrado manualmente"
+ },
+ {
+  "regra": "Falta não justificada",
+  "pontosxp": "-8",
+  "descri_o": "Penalização para incentivar a constância (o XP total nunca é exibido abaixo de 0).",
+  "observa_o": "Opcional - pode ser desativado"
+ },
+ {
+  "regra": "Conclusão de fase (a cada 2 semanas)",
+  "pontosxp": "25",
+  "descri_o": "Bônus ao concluir cada uma das 4 fases de periodização com adesão >= 80%.",
+  "observa_o": "4x ao longo do programa"
+ },
+ {
+  "regra": "Conclusão do programa completo (8 semanas)",
+  "pontosxp": "60",
+  "descri_o": "Bônus final por completar as 8 semanas do programa.",
+  "observa_o": "1x"
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "objetivoprincipal": "Emagrecimento e condicionamento geral",
+  "m_nreserva": "60",
+  "m_xreserva": "70",
+  "zonadetreino": "Zona 2 - Moderada (queima de gordura)"
+ },
+ {
+  "objetivoprincipal": "Hipertrofia e ganho de força",
+  "m_nreserva": "70",
+  "m_xreserva": "80",
+  "zonadetreino": "Zona 3 - Intensa"
+ },
+ {
+  "objetivoprincipal": "Saúde óssea e mobilidade",
+  "m_nreserva": "50",
+  "m_xreserva": "65",
+  "zonadetreino": "Zona 1-2 - Leve a Moderada"
+ },
+ {
+  "objetivoprincipal": "Performance e resistência",
+  "m_nreserva": "80",
+  "m_xreserva": "90",
+  "zonadetreino": "Zona 4 - Muito Intensa"
+ },
+ {
+  "objetivoprincipal": "Qualidade de vida e equilíbrio",
+  "m_nreserva": "50",
+  "m_xreserva": "60",
+  "zonadetreino": "Zona 1 - Leve"
+ },
+ {
+  "objetivoprincipal": "Ganho de massa muscular",
+  "m_nreserva": "70",
+  "m_xreserva": "80",
+  "zonadetreino": "Zona 3 - Intensa"
+ },
+ {
+  "objetivoprincipal": "Emagrecimento e tonificação",
+  "m_nreserva": "60",
+  "m_xreserva": "70",
+  "zonadetreino": "Zona 2 - Moderada (queima de gordura)"
+ },
+ {
+  "objetivoprincipal": "Saúde cardiovascular",
+  "m_nreserva": "50",
+  "m_xreserva": "60",
+  "zonadetreino": "Zona 1 - Leve"
+ },
+ {
+  "objetivoprincipal": "Condicionamento geral",
+  "m_nreserva": "60",
+  "m_xreserva": "70",
+  "zonadetreino": "Zona 2 - Moderada"
+ },
+ {
+  "objetivoprincipal": "Mobilidade e prevenção de lesões",
+  "m_nreserva": "50",
+  "m_xreserva": "65",
+  "zonadetreino": "Zona 1-2 - Leve a Moderada"
+ }
+]

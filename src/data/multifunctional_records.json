@@ -1,0 +1,6502 @@
+[
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 39,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 66,
+  "classificacao": "Regular +"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 83,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 61,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 61,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 2,
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 21,
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 10,
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 21,
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": -5.5,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": 2,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 14,
+  "classificacao": "Normal"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 82,
+  "classificacao": "Regular -"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 82,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 45,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 46,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 14,
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 21,
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 8,
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 19,
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": 5,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": 2.5,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 43,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 12,
+  "classificacao": "Normal"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 75,
+  "classificacao": "Muito Bom"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 104,
+  "classificacao": "Muito Bom"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 74,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 17,
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 3,
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 19,
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 11,
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": 4,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": 4.5,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 24,
+  "classificacao": "Bom +"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 42,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 81,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 116,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 76,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 15,
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 8,
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 18,
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 25,
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": 5,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": -3.5,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 21,
+  "classificacao": "Bom +"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 30,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 76,
+  "classificacao": "Muito Bom"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 58,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 105,
+  "classificacao": "Muito Bom"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 10,
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 5,
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 3,
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 8,
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": -6,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": 3,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 66,
+  "classificacao": "Regular +"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 64,
+  "classificacao": "Regular +"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 85,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 44,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 119,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 2,
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 22,
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 2,
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 12,
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": -5,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": 1,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 29,
+  "classificacao": "Bom +"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 56,
+  "classificacao": "Bom -"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 86,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 47,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 60,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 16,
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 18,
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 8,
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 3,
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": -6,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": 0.5,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 55,
+  "classificacao": "Bom -"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 58,
+  "classificacao": "Bom -"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 23,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 54,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 66,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 19,
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 11,
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 2,
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 11,
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": -2,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": -1.5,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 6,
+  "classificacao": "Normal"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 36,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 87,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 121,
+  "classificacao": "Excelente"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 58,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 18,
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 7,
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 22,
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 21,
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": 6,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": -2,
+  "classificacao": "-1 (Afastados)"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Rotação Externa",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "Pés",
+  "item": "Inversão/Eversão",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "Tornozelos",
+  "item": "Elevação do Calcanhar",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Quadril-Coxa não paralela ao solo",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva (retroversão)",
+  "lado": "-",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Extensão lombar excessiva (hiperlordose)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "CQPL",
+  "item": "Flexão lombar excessiva",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "1. Agachamento",
+  "regiao": "Complexo do Ombro",
+  "item": "Braços caem para frente",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não alcança a área limite (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Pés",
+  "item": "Não mantém alinhamento paralelo (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Não toca no chão (S)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para dentro (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Joelhos",
+  "item": "Movimento para fora (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão (S)",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Flexão lateral (F)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Tronco",
+  "item": "Rotação (T)",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "2. Avanço",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Não mantém o alinhamento",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Lombar (flexão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Escápula (retração)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Ombro (elevação)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "3. Extensão dos Cotovelos",
+  "regiao": "CQPL",
+  "item": "Cervical (hiperextensão)",
+  "lado": "-",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Estático",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Desequilíbrio Dinâmico",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do ombro",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Rotação interna do quadril",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Não toca mão/joelho",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "4. Gato Cruzado",
+  "regiao": "Corpo todo",
+  "item": "Membros desalinhados",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "D",
+  "valor": 15,
+  "classificacao": "Bom +"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "5. Kendall - Extensão dos Quadris",
+  "regiao": "Corpo todo",
+  "item": "Ângulo de Extensão do Quadril (°)",
+  "lado": "E",
+  "valor": 39,
+  "classificacao": "Bom"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "6. Prancha Ventral",
+  "regiao": "Core",
+  "item": "Tempo de Prancha Ventral (s)",
+  "lado": "-",
+  "valor": 19,
+  "classificacao": "Fraco"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "D",
+  "valor": 51,
+  "classificacao": "Regular"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "7. Flexão do Quadril - Isquiotibial",
+  "regiao": "Isquiotibiais",
+  "item": "Ângulo de Flexão do Quadril (°)",
+  "lado": "E",
+  "valor": 104,
+  "classificacao": "Muito Bom"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 18,
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Reto Femoral",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 14,
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "D",
+  "valor": 18,
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "8. Iliopsoas/Reto Femoral",
+  "regiao": "Iliopsoas",
+  "item": "Ângulo de Encurtamento (°)",
+  "lado": "E",
+  "valor": 16,
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Menor",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (costal/clavicular)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Peitoral Maior (abdominal)",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "D",
+  "valor": "N",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "9. Peitoral e Latíssimo",
+  "regiao": "Latíssimo do Dorso",
+  "item": "Encurtamento Observado",
+  "lado": "E",
+  "valor": "S",
+  "classificacao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "D",
+  "valor": 1,
+  "classificacao": "+1 (Sobrepostos)"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste": "10. Rotação dos Ombros",
+  "regiao": "Ombro",
+  "item": "Distância entre Dedos Médios (cm)",
+  "lado": "E",
+  "valor": 4,
+  "classificacao": "+1 (Sobrepostos)"
+ }
+]

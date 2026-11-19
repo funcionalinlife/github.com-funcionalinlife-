@@ -1,0 +1,32 @@
+[
+ {
+  "ordem": "1",
+  "mensagem": "🏆 Parabéns aos alunos que bateram recorde pessoal esta semana! Continue assim!",
+  "ativosn": "S",
+  "observa_o": ""
+ },
+ {
+  "ordem": "2",
+  "mensagem": "📅 Lembrete: sessão de recuperação aos sábados é obrigatória para manter a sequência de XP.",
+  "ativosn": "S",
+  "observa_o": ""
+ },
+ {
+  "ordem": "3",
+  "mensagem": "💧 Hidrate-se! Confira sua meta diária de água na aba Bem-Estar.",
+  "ativosn": "S",
+  "observa_o": ""
+ },
+ {
+  "ordem": "4",
+  "mensagem": "🎉 Novo ciclo de 8 semanas começando em breve - fique de olho nas novidades!",
+  "ativosn": "S",
+  "observa_o": ""
+ },
+ {
+  "ordem": "5",
+  "mensagem": "🩺 Alunos com avaliação médica pendente: procure a recepção antes do próximo treino.",
+  "ativosn": "N",
+  "observa_o": "Desativado - ativar quando houver pendências"
+ }
+]

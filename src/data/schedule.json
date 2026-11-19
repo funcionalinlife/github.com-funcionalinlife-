@@ -1,0 +1,20 @@
+[
+ {
+  "turno": "Manhã",
+  "janeladoturno": "06h às 10h",
+  "hor_riosdein_ciodispon_veis60minsess_o": "06h00 | 07h00 | 08h00 | 09h00",
+  "observa_o": "Última entrada às 9h para concluir 60min até as 10h"
+ },
+ {
+  "turno": "Tarde",
+  "janeladoturno": "16h às 17h",
+  "hor_riosdein_ciodispon_veis60minsess_o": "16h00",
+  "observa_o": "Janela de apenas 1h - turno com 1 sessão fixa"
+ },
+ {
+  "turno": "Noite",
+  "janeladoturno": "18h às 21h",
+  "hor_riosdein_ciodispon_veis60minsess_o": "18h00 | 19h00 | 20h00",
+  "observa_o": "Última entrada às 20h para concluir 60min até as 21h"
+ }
+]

@@ -1,0 +1,30 @@
+[
+ {
+  "badge": "🔥 Presença Perfeita",
+  "crit_rio": "100% de presença em uma semana"
+ },
+ {
+  "badge": "💪 Superação",
+  "crit_rio": "3 recordes pessoais no mesmo mês"
+ },
+ {
+  "badge": "🧘 Mente e Corpo",
+  "crit_rio": "Concluir todas as sessões de recuperação do programa"
+ },
+ {
+  "badge": "🚀 Potência Máxima",
+  "crit_rio": "Concluir a Fase 4 (Potência Funcional) com adesão >= 90%"
+ },
+ {
+  "badge": "🏆 Lenda do Studio",
+  "crit_rio": "Concluir as 8 semanas completas do programa"
+ },
+ {
+  "badge": "RANKING E DESEMPATE",
+  "crit_rio": ""
+ },
+ {
+  "badge": "1) Maior XP Total   2) Mais Semanas com Presença 100%   3) Menor ID de cadastro (critério residual, evita empates)",
+  "crit_rio": ""
+ }
+]

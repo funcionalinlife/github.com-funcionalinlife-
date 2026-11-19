@@ -1,0 +1,102 @@
+[
+ {
+  "posi_o": 1,
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "xptotal": 803,
+  "avatarn_vel": "Lenda Suprema - Nível 5 - Lenda Suprema",
+  "semanascpresen_a100": 4,
+  "ades_o": 0.88,
+  "objetivo": "Ganho de massa muscular"
+ },
+ {
+  "posi_o": 2,
+  "id": 10,
+  "nome": "Roberto Dias",
+  "xptotal": 782,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 3,
+  "ades_o": 0.88,
+  "objetivo": "Mobilidade e prevenção de lesões"
+ },
+ {
+  "posi_o": 3,
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "xptotal": 743,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 4,
+  "ades_o": 0.9,
+  "objetivo": "Saúde óssea e mobilidade"
+ },
+ {
+  "posi_o": 4,
+  "id": 5,
+  "nome": "Juliana Martins",
+  "xptotal": 736,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 4,
+  "ades_o": 0.83,
+  "objetivo": "Qualidade de vida e equilíbrio"
+ },
+ {
+  "posi_o": 5,
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "xptotal": 726,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 3,
+  "ades_o": 0.85,
+  "objetivo": "Hipertrofia e ganho de força"
+ },
+ {
+  "posi_o": 6,
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "xptotal": 711,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 4,
+  "ades_o": 0.85,
+  "objetivo": "Emagrecimento e tonificação"
+ },
+ {
+  "posi_o": 7,
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "xptotal": 668,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 2,
+  "ades_o": 0.83,
+  "objetivo": "Performance e resistência"
+ },
+ {
+  "posi_o": 8,
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "xptotal": 636,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 1,
+  "ades_o": 0.81,
+  "objetivo": "Saúde cardiovascular"
+ },
+ {
+  "posi_o": 9,
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "xptotal": 635,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 1,
+  "ades_o": 0.83,
+  "objetivo": "Emagrecimento e condicionamento geral"
+ },
+ {
+  "posi_o": 10,
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "xptotal": 578,
+  "avatarn_vel": "Titã - Nível 4 - Titã",
+  "semanascpresen_a100": 1,
+  "ades_o": 0.79,
+  "objetivo": "Condicionamento geral"
+ }
+]

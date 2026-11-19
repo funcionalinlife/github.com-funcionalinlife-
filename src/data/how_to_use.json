@@ -1,0 +1,13 @@
+[
+ "COMO USAR ESTA PLANILHA E O DASHBOARD",
+ "1. Preencha/edite os dados dos alunos nas abas Cadastro_Alunos, Antropometria, Avaliacao_Funcional, Anamnese e Fotos. Células com fundo amarelo sao os campos editaveis.",
+ "2. Marque a presença de cada aluno em cada sessão na aba Frequencia_XP (coluna 'Presença', digite S ou N). O XP e o nível são calculados automaticamente por fórmula.",
+ "3. A aba Ranking é 100% automática (fórmulas INDEX/MATCH/COUNTIFS) - não edite manualmente, ela recalcula sozinha ao salvar.",
+ "4. Salve o arquivo (Ctrl+S) mantendo o mesmo nome/local.",
+ "5. Abra o arquivo dashboard.html no navegador (Chrome/Edge recomendado). Clique em 'Selecionar planilha' uma vez e escolha este arquivo .xlsx.",
+ "6. Em navegadores Chromium (Chrome/Edge), o dashboard passa a monitorar o arquivo sozinho e se atualiza automaticamente a cada 4 segundos, sem precisar reabrir o arquivo. Em outros navegadores (Firefox/Safari), clique no botão 'Atualizar agora' após salvar a planilha.",
+ "7. O relógio digital do dashboard (dia/mes/ano e hora) roda no computador do usuário e independe da planilha.",
+ "8. Observação técnica: fórmulas do Excel não conseguem se auto-atualizar sozinhas a cada 4s sem macros (VBA); por isso a atualização automática em tempo real acontece no dashboard.html (via leitura do arquivo), enquanto o próprio Excel recalcula normalmente ao ser aberto/editado/salvo.",
+ "9. Cronômetro de sessão: no dashboard.html, ao lado do relógio digital, clique em 'Iniciar Sessão' no começo do treino e em 'Finalizar Sessão' no fim. O painel mostra o tempo decorrido e, ao finalizar, oferece uma tabela (Sessão/Aluno/Duração) para copiar e colar na coluna 'Duração da Sessão (min)' da aba Frequencia_XP, ou baixar como CSV. O tempo não é gravado sozinho no arquivo .xlsx (para não arriscar corromper fórmulas/imagens) - a colagem final é sempre feita manualmente pelo instrutor.",
+ "10. As colunas 'Tempo Total de Treino (min)' e 'Tempo Médio por Sessão (min)' na aba Cadastro_Alunos, e a coluna 'Duração da Sessão (min)' na aba Frequencia_XP, somam automaticamente por fórmula assim que os tempos forem preenchidos."
+]

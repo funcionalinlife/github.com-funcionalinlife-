@@ -1,0 +1,66 @@
+[
+ {
+  "n": "1",
+  "pilar": "Locomoção",
+  "exerc_cioteste": "Alcançar Unilateral",
+  "oquevemoscompensa_es": "1. Tronco a Frente | 2. Queda de Quadril | 3. Joelho Valgo",
+  "problema": "Glúteo Fraco",
+  "exerc_ciodecorre_o": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "n": "2",
+  "pilar": "Locomoção",
+  "exerc_cioteste": "Agachamento Unipodal",
+  "oquevemoscompensa_es": "1. Tronco a Frente | 2. Queda de Quadril | 3. Joelho Valgo",
+  "problema": "Glúteo Fraco",
+  "exerc_ciodecorre_o": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "n": "3",
+  "pilar": "Trocar Nível",
+  "exerc_cioteste": "Agachamento",
+  "oquevemoscompensa_es": "1. Joelho Valgo | 2. Quadril Desloca Esquerda/Direita",
+  "problema": "1. Fraqueza de um Lado | 2. Glúteo Fraco | 3. Tornozelo Fraco",
+  "exerc_ciodecorre_o": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "n": "4",
+  "pilar": "Troca de Nível",
+  "exerc_cioteste": "Avanço",
+  "oquevemoscompensa_es": "1. Joelho muito a Frente / Calcanhares Sobem | 2. Valgo de Joelho | 3. Queda de Quadril (E/D) e Retroversão Pélvica",
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "exerc_ciodecorre_o": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "n": "5",
+  "pilar": "Empurrar e Puxar",
+  "exerc_cioteste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "oquevemoscompensa_es": "1. Flacidez de Core | 2. Fraqueza dos Músculos da Escápula",
+  "problema": "1. Fraqueza de Core | 2. Fraqueza dos Músculos de Empurrar (tríceps/peito/deltoide anterior)",
+  "exerc_ciodecorre_o": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "n": "6",
+  "pilar": "Puxar",
+  "exerc_cioteste": "Puxada Suspensa (TRX, corda, Smith)",
+  "oquevemoscompensa_es": "1. Queda de Quadril | 2. Músculos Puxadores Fracos (bíceps/dorsais/deltoide posterior) | 3. Core Posterior Fraco",
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "exerc_ciodecorre_o": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "n": "7",
+  "pilar": "Rotação",
+  "exerc_cioteste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "oquevemoscompensa_es": "Diminui Rotação Interna do Quadril e Ativação do Glúteo (mobilidade de quadril)",
+  "problema": "Rotadores Externos",
+  "exerc_ciodecorre_o": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "n": "8",
+  "pilar": "Rotação",
+  "exerc_cioteste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "oquevemoscompensa_es": "Diminui Velocidade e Controle (estabilidade gera rigidez e transferência de força, exercício de antirrotação)",
+  "problema": "1. Do Quadril | 2. Core sem Rigidez",
+  "exerc_ciodecorre_o": "Rotação de Tronco (elástico, crossover, med ball)"
+ }
+]

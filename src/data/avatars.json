@@ -1,0 +1,47 @@
+[
+ {
+  "n_vel": "Nível 1 - Recruta",
+  "classifica_o": "Iniciante",
+  "avatarher_i": "Recruta",
+  "descri_odoavatar": "O aluno inicia sua jornada de herói. Máscara simples, sem emblema — o poder ainda está por vir.",
+  "xpm_nimo": 0,
+  "comoevoluir": "Completar as 3 primeiras sessões para evoluir.",
+  "imagem": null
+ },
+ {
+  "n_vel": "Nível 2 - Sentinela",
+  "classifica_o": "Iniciante Avançado",
+  "avatarher_i": "Sentinela",
+  "descri_odoavatar": "Primeiras adaptações neuromusculares. Ganha o primeiro emblema no uniforme.",
+  "xpm_nimo": 100,
+  "comoevoluir": "Manter frequência mínima de 80% nas semanas 1-2.",
+  "imagem": null
+ },
+ {
+  "n_vel": "Nível 3 - Guardião",
+  "classifica_o": "Intermediário",
+  "avatarher_i": "Guardião",
+  "descri_odoavatar": "Força e resistência em desenvolvimento. Uniforme completo, capa curta e emblema de escudo.",
+  "xpm_nimo": 250,
+  "comoevoluir": "Completar a Fase 2 (Resistência de Força) com adesão >= 80%.",
+  "imagem": null
+ },
+ {
+  "n_vel": "Nível 4 - Titã",
+  "classifica_o": "Avançado",
+  "avatarher_i": "Titã",
+  "descri_odoavatar": "Corpo e mente em alta performance. Armadura reforçada e emblema de raio.",
+  "xpm_nimo": 500,
+  "comoevoluir": "Completar a Fase 3 (Força Máxima) com adesão >= 80%.",
+  "imagem": null
+ },
+ {
+  "n_vel": "Nível 5 - Lenda Suprema",
+  "classifica_o": "Avançado Elite",
+  "avatarher_i": "Lenda Suprema",
+  "descri_odoavatar": "Auge do programa de 8 semanas. Uniforme dourado completo, capa longa e emblema de estrela.",
+  "xpm_nimo": 800,
+  "comoevoluir": "Concluir as 8 semanas completas do programa.",
+  "imagem": null
+ }
+]

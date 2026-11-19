@@ -1,0 +1,1062 @@
+[
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "S",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "S",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "S",
+   "S"
+  ],
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "correcao": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 1,
+  "nome": "Ana Beatriz Costa",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "S",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "S",
+   "N"
+  ],
+  "problema": "1. Fraqueza de um Lado | 2. Glúteo Fraco | 3. Tornozelo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "S",
+   "N"
+  ],
+  "problema": "1. Fraqueza de Core | 2. Fraqueza dos Músculos de Empurrar (tríceps/peito/deltoide anterior)",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "S"
+  ],
+  "problema": "Rotadores Externos",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 2,
+  "nome": "Carlos Eduardo Lima",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "S",
+   "S"
+  ],
+  "problema": "1. Fraqueza de um Lado | 2. Glúteo Fraco | 3. Tornozelo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "S",
+   "N",
+   "N"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "S"
+  ],
+  "problema": "Rotadores Externos",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 3,
+  "nome": "Fernanda Souza",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "S",
+   "N",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "S",
+   "S",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "correcao": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "S",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 4,
+  "nome": "Ricardo Alves",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "S"
+  ],
+  "problema": "1. Do Quadril | 2. Core sem Rigidez",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "N",
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "S",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "S",
+   "S"
+  ],
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "correcao": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "S"
+  ],
+  "problema": "Rotadores Externos",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 5,
+  "nome": "Juliana Martins",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "S"
+  ],
+  "problema": "1. Do Quadril | 2. Core sem Rigidez",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "N",
+   "S",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "correcao": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "S",
+   "S"
+  ],
+  "problema": "1. Fraqueza de Core | 2. Fraqueza dos Músculos de Empurrar (tríceps/peito/deltoide anterior)",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "S"
+  ],
+  "problema": "Rotadores Externos",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 6,
+  "nome": "Marcelo Rocha",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "N",
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "S",
+   "N"
+  ],
+  "problema": "1. Fraqueza de um Lado | 2. Glúteo Fraco | 3. Tornozelo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "S",
+   "S",
+   "N"
+  ],
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "correcao": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "S",
+   "S"
+  ],
+  "problema": "1. Fraqueza de Core | 2. Fraqueza dos Músculos de Empurrar (tríceps/peito/deltoide anterior)",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "N",
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 7,
+  "nome": "Patrícia Nunes",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "S"
+  ],
+  "problema": "1. Do Quadril | 2. Core sem Rigidez",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "S",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "S",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "S",
+   "N"
+  ],
+  "problema": "1. Fraqueza de um Lado | 2. Glúteo Fraco | 3. Tornozelo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "S",
+   "N"
+  ],
+  "problema": "1. Fraqueza de Core | 2. Fraqueza dos Músculos de Empurrar (tríceps/peito/deltoide anterior)",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "S"
+  ],
+  "problema": "Rotadores Externos",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 8,
+  "nome": "Eduardo Ferreira",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "S",
+   "N"
+  ],
+  "problema": "1. Fraqueza de um Lado | 2. Glúteo Fraco | 3. Tornozelo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "S",
+   "N",
+   "N"
+  ],
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "correcao": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "S",
+   "S"
+  ],
+  "problema": "1. Fraqueza de Core | 2. Fraqueza dos Músculos de Empurrar (tríceps/peito/deltoide anterior)",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "S",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "S"
+  ],
+  "problema": "Rotadores Externos",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 9,
+  "nome": "Camila Ribeiro",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 1,
+  "pilar": "Locomoção",
+  "teste": "Alcançar Unilateral",
+  "flags": [
+   "S",
+   "N",
+   "S"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Levantamento Terra | 2. Bom Dia | 3. Ponte/Prancha"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 2,
+  "pilar": "Locomoção",
+  "teste": "Agachamento Unipodal",
+  "flags": [
+   "N",
+   "S",
+   "N"
+  ],
+  "problema": "Glúteo Fraco",
+  "correcao": "1. Wallmarch | 2. Agachamento | 3. Agachamento Unipodal"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 3,
+  "pilar": "Trocar Nível",
+  "teste": "Agachamento",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 4,
+  "pilar": "Troca de Nível",
+  "teste": "Avanço",
+  "flags": [
+   "N",
+   "N",
+   "S"
+  ],
+  "problema": "1. Flexor de Quadril Encurtado (iliopsoas, sartório, reto femoral) | 2. Glúteo Fraco (médio e máximo)",
+  "correcao": "1. Alcance | 2. Avanço com perna de trás 1º à frente, alongar psoas e fortalecer glúteo (cadeia cruzada) | 3. Step Up"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 5,
+  "pilar": "Empurrar e Puxar",
+  "teste": "Flexão de Braço (distância dos pés, estabilizar escápula e quadril)",
+  "flags": [
+   "N",
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 6,
+  "pilar": "Puxar",
+  "teste": "Puxada Suspensa (TRX, corda, Smith)",
+  "flags": [
+   "S",
+   "N",
+   "N"
+  ],
+  "problema": "Glúteo e Quadrado Lombar Fracos",
+  "correcao": "1. Puxada Suspensa (TRX, corda, Smith) | 2. Banco Supino (empurrar) | 3. Extensão do Corpo (bola/parede) | 4. Extensão de Perna com Bola"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 7,
+  "pilar": "Rotação",
+  "teste": "Rotação com Pivô (rotação na ponta de um pé, lateral)",
+  "flags": [
+   "S"
+  ],
+  "problema": "Rotadores Externos",
+  "correcao": "Rotação de Tronco (elástico, crossover, med ball)"
+ },
+ {
+  "id": 10,
+  "nome": "Roberto Dias",
+  "teste_n": 8,
+  "pilar": "Rotação",
+  "teste": "Rotação sem Pivô (sem rotacionar na ponta do pé de trás)",
+  "flags": [
+   "N"
+  ],
+  "problema": "Nenhuma compensação identificada",
+  "correcao": "-"
+ }
+]
