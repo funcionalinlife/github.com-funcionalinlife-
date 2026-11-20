@@ -4,6 +4,7 @@ import os
 import re
 
 import openpyxl
+from openpyxl.utils import column_index_from_string
 
 XLSX = '/mnt/vibefs/uploads/8b3864e4-f4fb-4767-a64d-7dd8347c10de/sQoHaLLt-plano_treino_studio.xlsx'
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src', 'data')
@@ -212,14 +213,39 @@ for row in r[hdr + 1:]:
     cur['blocos'].append(bloco)
 data['workout_plan'] = plan
 
-# hyperlinks dos vídeos (coluna P)
+# vídeos (coluna P): fórmulas =HYPERLINK(...) montadas com SUBSTITUTE sobre a coluna J
 wb2 = openpyxl.load_workbook(XLSX, data_only=False)
 ws2 = wb2['Plano_Treino']
 video_links = {}
 for roww in ws2.iter_rows(min_row=ws2.min_row, max_row=ws2.max_row, values_only=False):
     c = roww[15] if len(roww) > 15 else None
-    if c is not None and c.hyperlink is not None:
+    if c is None:
+        continue
+    if c.hyperlink is not None:
         video_links[c.value] = c.hyperlink.target
+        continue
+    f = c.value
+    if not isinstance(f, str):
+        continue
+    m = re.match(r'^\s*=HYPERLINK\((.*)\)\s*$', f, re.S)
+    if not m:
+        continue
+    inner = re.sub(r',\s*"[^"]*"\s*$', '', m.group(1))
+    url = ''
+    exercicio = roww[9].value if len(roww) > 9 else None
+    for part in re.split(r'&(?=(?:[^"]*"[^"]*")*[^"]*$)', inner):
+        part = part.strip()
+        m = re.match(r'^"(.*)"$', part)
+        if m:
+            url += m.group(1)
+        else:
+            mcell = re.match(r'SUBSTITUTE\(([A-Z]+)\d+', part)
+            if mcell:
+                col = column_index_from_string(mcell.group(1)) - 1
+                val = roww[col].value if len(roww) > col else ''
+                url += str(val or '').replace(' ', '+')
+    if exercicio and url:
+        video_links[exercicio] = url
 data['video_links'] = video_links
 
 # 12) Frequência e XP por sessão

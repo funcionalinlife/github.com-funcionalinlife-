@@ -30,6 +30,7 @@ import tasvmMethods from './data/tasvm_methods.json'
 import tasvmMatrix from './data/tasvm_matrix.json'
 import volumeLoad from './data/volume_load.json'
 import programMeta from './data/program_meta.json'
+import videoLinks from './data/video_links.json'
 
 export const db = {
   students, anthropometry, functional, anamnesis, hrZones, hrZoneTargets, wellbeing,
@@ -37,7 +38,7 @@ export const db = {
   movementSummary, multifunctionalSummary, multifunctionalRecords, multifunctionalTestsRef,
   workoutPlan, attendance, weeklyPerfect, ranking, avatars, badges, xpRules, schedule,
   notices, tasvmStudents, tasvmPillars, tasvmOverload, tasvmMethods, tasvmMatrix,
-  volumeLoad, programMeta,
+  volumeLoad, programMeta, videoLinks,
 }
 
 export const byId = (list, id) => list.find((r) => Number(r.id) === Number(id))
@@ -96,4 +97,6 @@ export const sessionHoje = (semana) => {
 }
 
 export const youtubeLink = (exercicio) =>
-  `https://www.youtube.com/results?search_query=${encodeURIComponent(exercicio + ' exercício')}`
+  (db.videoLinks && db.videoLinks[exercicio])
+    ? db.videoLinks[exercicio]
+    : `https://www.youtube.com/results?search_query=${encodeURIComponent(exercicio + ' exercício')}`
