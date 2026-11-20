@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Chip, SectionTitle } from '../ui.jsx'
 import { db, byId, metricsAluno } from '../data.js'
 import { downloadCSV } from '../exportUtils.js'
@@ -87,8 +87,115 @@ const MASCI = (s, k, def = '—') => {
   return def === '—' ? 'green' : def
 }
 
+const riscoFlags = (a) => {
+  const s = byId(db.metabolicScreening, a.id) || {}
+  const ant = byId(db.anthropometry, a.id) || {}
+  const m = metricsAluno(a.id)
+  return {
+    risco: String(s.classifica_oderiscogeral || '').includes('Alto'),
+    fadiga: String(ant.classifica_oderecupera_o || '').includes('Possível'),
+    dp: String(ant.classifica_oduploprodutopodetreinar || '').includes('🔴'),
+    adesao: (m.adesao ?? 1) < 0.8,
+  }
+}
+
+function RevisaoRegistros() {
+  const [revisoes, setRevisoes] = useState(() => JSON.parse(localStorage.getItem('portal_revisoes') || '{}'))
+
+  const registros = db.students.map((a) => {
+    const feitos = JSON.parse(localStorage.getItem(`portal_feitos_${a.id}`) || '{}')
+    const grupos = {}
+    for (const key of Object.keys(feitos)) {
+      if (!feitos[key]) continue
+      const [semana, dia] = key.split('-')
+      const g = `S${semana} · D${Number(dia) + 1}`
+      grupos[g] = (grupos[g] || 0) + 1
+    }
+    return { aluno: a, total: Object.values(grupos).reduce((x, y) => x + y, 0), det: Object.keys(grupos).join(', ') }
+  })
+
+  const salvarRev = (id, status, nota = '') => {
+    const novas = { ...revisoes }
+    if (!status) delete novas[id]
+    else novas[id] = { status, quando: new Date().toLocaleString('pt-BR'), nota }
+    setRevisoes(novas)
+    localStorage.setItem('portal_revisoes', JSON.stringify(novas))
+  }
+
+  const corrigir = (r) => {
+    if (!window.confirm(`Corrigir marcações de ${r.aluno.nomecompleto}? Isso limpa os exercícios marcados como concluídos.`)) return
+    localStorage.setItem(`portal_feitos_${r.aluno.id}`, '{}')
+    salvarRev(r.aluno.id, 'corrigido', 'Marcações limpas pelo instrutor')
+  }
+
+  const aprovados = Object.values(revisoes).filter((x) => x.status === 'aprovado').length
+  const corrigidos = Object.values(revisoes).filter((x) => x.status === 'corrigido').length
+
+  return (
+    <div className="card overflow-x-auto">
+      <SectionTitle right={<div className="flex gap-2"><Chip tone="green">✅ {aprovados} aprovados</Chip><Chip tone="yellow">✏️ {corrigidos} corrigidos</Chip></div>}>
+        Revisão de registros dos alunos
+      </SectionTitle>
+      <table className="data min-w-[760px]">
+        <thead>
+          <tr><th>#</th><th>Aluno</th><th>Exercícios marcados</th><th>Sessões</th><th>Status</th><th>Ações</th></tr>
+        </thead>
+        <tbody>
+          {registros.map((r) => {
+            const rev = revisoes[r.aluno.id]
+            return (
+              <tr key={r.aluno.id}>
+                <td>{r.aluno.id}</td>
+                <td className="whitespace-nowrap font-medium">{r.aluno.nomecompleto}</td>
+                <td className="font-bold text-lime-300">{r.total}</td>
+                <td className="text-xs text-zinc-400">{r.det || '—'}</td>
+                <td>
+                  <Chip tone={rev?.status === 'aprovado' ? 'green' : rev?.status === 'corrigido' ? 'yellow' : ''}>
+                    {rev ? `${rev.status === 'aprovado' ? 'Aprovado' : 'Corrigido'} · ${rev.quando}` : 'Pendente'}
+                  </Chip>
+                  {rev?.nota && <div className="mt-1 text-xs text-zinc-500">{rev.nota}</div>}
+                </td>
+                <td className="whitespace-nowrap">
+                  <div className="flex gap-1">
+                    <button className="btn-ghost px-2 py-1 text-xs" onClick={() => salvarRev(r.aluno.id, 'aprovado', `Aprovado em ${new Date().toLocaleDateString('pt-BR')}`)}>✅ Aprovar</button>
+                    <button className="btn-ghost px-2 py-1 text-xs" onClick={() => corrigir(r)}>✏️ Corrigir</button>
+                    {rev && <button className="btn-ghost px-2 py-1 text-xs" onClick={() => salvarRev(r.aluno.id, null)}>↩️</button>}
+                  </div>
+                </td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+      <p className="mt-3 text-xs text-zinc-500">
+        Os registros listados são as marcações de exercícios feitas pelos alunos neste dispositivo (o portal é estático;
+        para histórico compartilhado em nuvem, integrar um backend como Supabase/Firebase).
+      </p>
+    </div>
+  )
+}
+
 export default function Instrutor() {
   const alunos = db.students
+  const [filtro, setFiltro] = useState('todos')
+  const flagsById = useMemo(() => Object.fromEntries(alunos.map((a) => [a.id, riscoFlags(a)])), [alunos])
+  const FILTROS = [
+    { k: 'todos', label: 'Todos' },
+    { k: 'risco', label: '🫀 Risco alto' },
+    { k: 'fadiga', label: '😴 Fadiga' },
+    { k: 'dp', label: '❤️ DP elevado' },
+    { k: 'adesao', label: '📉 Adesão < 80%' },
+  ]
+  const alunosRender = filtro === 'todos' ? alunos : alunos.filter((a) => flagsById[a.id][filtro])
+
+  const cargaSemanal = useMemo(() => {
+    const acc = {}
+    for (const v of db.volumeLoad) acc[v.semana] = (acc[v.semana] || 0) + Number(v.volumeloadkg || 0)
+    return [1, 2, 3, 4, 5, 6, 7, 8].map((semana) => ({ semana, kg: Math.round(acc[semana] || 0) }))
+  }, [])
+  const maxCarga = Math.max(...cargaSemanal.map((w) => w.kg), 1)
+  const totalCarga = cargaSemanal.reduce((x, w) => x + w.kg, 0)
+
   const alertas = []
   for (const a of alunos) {
     const row = {
@@ -176,8 +283,45 @@ export default function Instrutor() {
         </div>
       )}
 
-      <div className="card overflow-x-auto">
-        <SectionTitle>Painel de alunos</SectionTitle>
+      <div className="card">
+        <SectionTitle>Carga semanal do programa (volume load)</SectionTitle>
+        <div className="flex h-44 items-end gap-2">
+          {cargaSemanal.map((w) => (
+            <div key={w.semana} className="flex h-full flex-1 flex-col items-center justify-end gap-1">
+              <span className="text-[10px] font-semibold text-zinc-400">{(w.kg / 1000).toFixed(1)}t</span>
+              <div
+                className="w-full rounded-t-md bg-gradient-to-t from-lime-800 to-lime-400 transition-all"
+                style={{ height: `${Math.max(2, (w.kg / maxCarga) * 82)}%` }}
+                title={`Semana ${w.semana}: ${w.kg.toLocaleString('pt-BR')} kg`}
+              />
+              <span className="text-xs text-zinc-500">S{w.semana}</span>
+            </div>
+          ))}
+        </div>
+        <p className="mt-3 text-xs text-zinc-500">
+          Volume load total (kg levantados) de todos os {alunos.length} alunos por semana, conforme a aba Volume_Load.
+          Total do programa: {(totalCarga / 1000).toFixed(1)} toneladas.
+        </p>
+      </div>
+
+      <div className="card">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <SectionTitle>Painel de alunos</SectionTitle>
+          <div className="mb-3 flex flex-wrap gap-1.5">
+            {FILTROS.map((f) => (
+              <button
+                key={f.k}
+                onClick={() => setFiltro(f.k)}
+                className={`chip transition ${filtro === f.k ? 'border-lime-600 bg-lime-900/40 text-lime-200' : 'text-zinc-400'}`}
+              >
+                {f.label} {f.k !== 'todos' && `(${alunos.filter((a) => flagsById[a.id][f.k]).length})`}
+              </button>
+            ))}
+          </div>
+        </div>
+        {alunosRender.length === 0 ? (
+          <p className="py-6 text-center text-sm text-zinc-400">🎉 Nenhum aluno neste filtro.</p>
+        ) : (
         <table className="data min-w-[900px]">
           <thead>
             <tr>
@@ -186,7 +330,7 @@ export default function Instrutor() {
             </tr>
           </thead>
           <tbody>
-            {alunos.map((a) => {
+            {alunosRender.map((a) => {
               const m = metricsAluno(a.id)
               const ant = byId(db.anthropometry, a.id)
               const s = byId(db.metabolicScreening, a.id)
@@ -213,7 +357,10 @@ export default function Instrutor() {
             })}
           </tbody>
         </table>
+        )}
       </div>
+
+      <RevisaoRegistros />
     </div>
   )
 }
