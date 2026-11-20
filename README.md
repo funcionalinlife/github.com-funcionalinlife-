@@ -30,10 +30,17 @@ treinamento gamificado de 8 semanas. Os dados vêm diretamente da planilha de ge
   aba Frequencia_XP ou baixar CSV — mesmo fluxo do dashboard original), revisão de
   registros dos alunos (aprovar/corrigir marcações) e exportação CSV (alunos, ranking,
   frequência/XP, triagem metabólica, volume load) + PDF via impressão.
-- **Senha**: login com verificação SHA-256 (`senha_hash` por aluno; padrão de demonstração
-  `studio<id>`, trocável pelo aluno no topo). Observação: por ser um site estático, a
-  autenticação é client-side — para produção com dados sensíveis, integre um backend
-  (Supabase/Firebase) antes de distribuir acessos reais.
+- **Credenciais e papéis**: no 1º acesso o portal pede a criação do **administrador**
+  (login/e-mail, senha, WhatsApp e permissões). A partir daí o login tem 4 modos:
+  **Aluno** (senha padrão `studio<id>`, trocável no topo), **Equipe** (admin/professor com
+  suas senhas), **Cadastrar** (auto-cadastro de aluno com e-mail + WhatsApp — fica
+  *Pendente* até o admin aprovar na aba ⚙️ Usuários) e **Recuperar** (código de 6 dígitos
+  com 15 min de validade; alunos redefinem a senha, contas ficam na aba Usuários).
+  Hashes SHA-256 client-side. **Modo híbrido**: sem backend, as contas funcionam no
+  dispositivo (navegador); na aba Usuários o admin pode colar Project URL + anon key de um
+  projeto gratuito do Supabase (Settings → API) para ativar **recuperação por e-mail real**
+  e cadastro/login via Supabase Auth (REST, sem dependências). Para produção com dados
+  sensíveis multi-dispositivo, migre o restante das contas/dados para o backend.
 
 ## Como rodar
 

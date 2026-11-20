@@ -1,20 +1,22 @@
 import { db } from './data.js'
 import { changePassword } from './auth.js'
+import { trocarSenhaPropria } from './usuarios.js'
 
-export function TrocarSenha({ aluno }) {
+export function TrocarSenha({ aluno, sessao }) {
   const trocar = async () => {
     const nova = prompt('Nova senha (mínimo 4 caracteres):')
     if (nova === null) return
     const confirmacao = prompt('Confirme a nova senha:')
-    if (nova !== confirmacao) {
-      alert('As senhas não conferem.')
-      return
-    }
-    const ok = await changePassword(aluno.id, nova)
-    alert(ok ? 'Senha alterada com sucesso!' : 'Senha inválida (mínimo 4 caracteres).')
+    const r = sessao
+      ? await trocarSenhaPropria(sessao, nova, confirmacao)
+      : nova === confirmacao
+        ? { ok: await changePassword(aluno.id, nova) }
+        : { ok: false, erro: 'As senhas não conferem.' }
+    alert(r.ok ? 'Senha alterada com sucesso!' : r.erro || 'Senha inválida (mínimo 4 caracteres).')
   }
+  const titulo = sessao ? 'Trocar minha senha' : 'Trocar senha'
   return (
-    <button className="btn-ghost !px-3 !py-1.5" onClick={trocar} title="Trocar senha">
+    <button className="btn-ghost !px-3 !py-1.5" onClick={trocar} title={titulo}>
       🔑 Trocar senha
     </button>
   )
@@ -31,7 +33,16 @@ const ITENS = [
   ['instrutor', '🧑‍🏫', 'Instrutor'],
 ]
 
-export default function Layout({ aluno, rota, onSair, children }) {
+const ITENS_EQUIPE = [
+  ['instrutor', '🧑‍🏫', 'Instrutor'],
+  ['usuarios', '⚙️', 'Usuários'],
+]
+
+export default function Layout({ aluno, sessao, rota, onSair, children }) {
+  const equipe = sessao && (sessao.papel === 'admin' || sessao.papel === 'professor')
+  const itens = equipe ? ITENS_EQUIPE : ITENS
+  const papelLabel = { admin: 'Administrador', professor: 'Professor', aluno: 'Aluno' }
+
   return (
     <div className="min-h-screen">
       <header className="sticky top-0 z-20 border-b border-zinc-800 bg-zinc-950/90 backdrop-blur">
@@ -45,10 +56,12 @@ export default function Layout({ aluno, rota, onSair, children }) {
           </div>
           <div className="flex items-center gap-3">
             <div className="hidden text-right sm:block">
-              <div className="text-sm font-semibold">{aluno.nomecompleto}</div>
-              <div className="text-xs text-zinc-500">{aluno.n_velatual} · {aluno.xptotal} XP</div>
+              <div className="text-sm font-semibold">{equipe ? sessao.nome : aluno.nomecompleto}</div>
+              <div className="text-xs text-zinc-500">
+                {equipe ? papelLabel[sessao.papel] : `${aluno.n_velatual} · ${aluno.xptotal} XP`}
+              </div>
             </div>
-            <TrocarSenha aluno={aluno} />
+            <TrocarSenha aluno={aluno} sessao={sessao} />
             <button className="btn-ghost !px-3 !py-1.5" onClick={onSair}>Sair</button>
           </div>
         </div>
@@ -63,7 +76,9 @@ export default function Layout({ aluno, rota, onSair, children }) {
         )}
         <nav className="border-t border-zinc-800/60">
           <div className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-3">
-            {ITENS.map(([id, icone, label]) => (
+            {itens
+              .filter(([id]) => id !== 'usuarios' || (equipe && (sessao.papel === 'admin' || sessao.permissoes.includes('gerenciar_usuarios'))))
+              .map(([id, icone, label]) => (
               <a
                 key={id}
                 href={`#/${id}`}
