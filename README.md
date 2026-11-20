@@ -24,10 +24,12 @@ treinamento gamificado de 8 semanas. Os dados vêm diretamente da planilha de ge
 - **Ranking**: leaderboard por XP, semanas com presença 100%, regras de XP, badges e
   escada de avatares.
 - **Instrutor**: painel de todos os alunos (PA, duplo produto, recuperação, síndrome
-  metabólica, equilíbrio T.A.S.V.M.), alertas automáticos de saúde/adesão, cronômetro de
-  sessão (Iniciar/Finalizar, com tabela para colar na coluna 'Duração da Sessão (min)' da
-  aba Frequencia_XP ou baixar CSV — mesmo fluxo do dashboard original) e exportação CSV
-  (alunos, ranking, frequência/XP, triagem metabólica, volume load) + PDF via impressão.
+  metabólica, equilíbrio T.A.S.V.M.) com filtro por risco, alertas automáticos de
+  saúde/adesão, gráfico de carga semanal (volume load), cronômetro de sessão
+  (Iniciar/Finalizar, com tabela para colar na coluna 'Duração da Sessão (min)' da
+  aba Frequencia_XP ou baixar CSV — mesmo fluxo do dashboard original), revisão de
+  registros dos alunos (aprovar/corrigir marcações) e exportação CSV (alunos, ranking,
+  frequência/XP, triagem metabólica, volume load) + PDF via impressão.
 - **Senha**: login com verificação SHA-256 (`senha_hash` por aluno; padrão de demonstração
   `studio<id>`, trocável pelo aluno no topo). Observação: por ser um site estático, a
   autenticação é client-side — para produção com dados sensíveis, integre um backend
