@@ -36,12 +36,7 @@ export default function App() {
   const [userId, setUserId] = useState(() => localStorage.getItem('portal_user_id'))
   const rota = useHashRoute()
 
-  const onEnter = (email) => {
-    const aluno = db.students.find((a) => a.email.trim().toLowerCase() === (email || '').trim().toLowerCase())
-    if (!aluno) {
-      alert('E-mail não encontrado no cadastro do studio.')
-      return
-    }
+  const onEnter = (aluno) => {
     localStorage.setItem('portal_user_id', String(aluno.id))
     setUserId(String(aluno.id))
     window.location.hash = '#/home'

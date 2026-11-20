@@ -1,6 +1,84 @@
+import { useEffect, useRef, useState } from 'react'
 import { Chip, SectionTitle } from '../ui.jsx'
 import { db, byId, metricsAluno } from '../data.js'
 import { downloadCSV } from '../exportUtils.js'
+
+const fmt = (ms) => {
+  const s = Math.floor(ms / 1000)
+  return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`
+}
+
+function Cronometro() {
+  const [cron, setCron] = useState(() => JSON.parse(localStorage.getItem('portal_cron') || 'null'))
+  const [hist, setHist] = useState(() => JSON.parse(localStorage.getItem('portal_cron_hist') || '[]'))
+  const [agora, setAgora] = useState(Date.now())
+  const ref = useRef(null)
+
+  useEffect(() => {
+    if (!cron) return undefined
+    ref.current = setInterval(() => setAgora(Date.now()), 500)
+    return () => clearInterval(ref.current)
+  }, [cron])
+
+  const salvar = (c, h) => {
+    setCron(c)
+    setHist(h)
+    localStorage.setItem('portal_cron', JSON.stringify(c))
+    localStorage.setItem('portal_cron_hist', JSON.stringify(h))
+  }
+
+  const iniciar = () => salvar({ inicio: Date.now() }, hist)
+  const finalizar = () => {
+    const minutos = Math.max(1, Math.round((Date.now() - cron.inicio) / 60000))
+    salvar(null, [...hist, { n: hist.length + 1, inicio: new Date(cron.inicio).toLocaleTimeString('pt-BR'), fim: new Date().toLocaleTimeString('pt-BR'), minutos }])
+  }
+  const limpar = () => salvar(null, [])
+
+  const copiarTabela = () => {
+    const linhas = ['Sessão\tAluno\tDuração (min)']
+    for (const a of db.students) linhas.push(`\t${a.nomecompleto}\t`)
+    navigator.clipboard.writeText(linhas.join('\n'))
+    alert('Tabela copiada! Cole na coluna D da aba Frequencia_XP e preencha a Duração da última sessão (' + hist[hist.length - 1]?.minutos + ' min) apenas para os alunos presentes.')
+  }
+
+  const baixarCSV = () =>
+    downloadCSV('duracao_sessoes.csv', ['Sessão', 'Início', 'Fim', 'Duração (min)'], hist.map((h) => [h.n, h.inicio, h.fim, h.minutos]))
+
+  const emAndamento = cron ? fmt(agora - cron.inicio) : null
+
+  return (
+    <div className="card">
+      <SectionTitle>⏱️ Cronômetro de sessão</SectionTitle>
+      <div className="flex flex-wrap items-center gap-4">
+        <div className="font-mono text-4xl font-bold text-lime-300">
+          {cron ? emAndamento : '00:00'}
+        </div>
+        {cron ? (
+          <button className="btn-primary" onClick={finalizar}>Finalizar sessão</button>
+        ) : (
+          <button className="btn-primary" onClick={iniciar}>Iniciar sessão</button>
+        )}
+        <button className="btn-ghost" onClick={copiarTabela} disabled={!hist.length}>📋 Copiar tabela (colar na planilha)</button>
+        <button className="btn-ghost" onClick={baixarCSV} disabled={!hist.length}>⬇️ Durações (CSV)</button>
+        <button className="btn-ghost" onClick={limpar} disabled={!hist.length}>Limpar histórico</button>
+      </div>
+      {hist.length > 0 && (
+        <table className="data mt-4 max-w-md">
+          <thead><tr><th>Sessão</th><th>Início</th><th>Fim</th><th>Duração</th></tr></thead>
+          <tbody>
+            {hist.slice().reverse().map((h) => (
+              <tr key={h.n}><td>{h.n}</td><td>{h.inicio}</td><td>{h.fim}</td><td>{h.minutos} min</td></tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+      <p className="mt-3 text-xs text-zinc-500">
+        O tempo não grava direto no .xlsx: copie a tabela e cole a duração na coluna 'Duração da Sessão (min)'
+        da aba Frequencia_XP (mesmo fluxo do dashboard original).
+      </p>
+    </div>
+  )
+}
 
 const MASCI = (s, k, def = '—') => {
   const v = String(s[k] || '')
@@ -68,6 +146,7 @@ export default function Instrutor() {
 
   return (
     <div className="space-y-6">
+      <Cronometro />
       <div className="card flex flex-wrap items-center justify-between gap-3">
         <div>
           <SectionTitle>Área do instrutor</SectionTitle>

@@ -319,6 +319,10 @@ for rec in data['movement_tests']:
     mov.append(rec)
 data['movement_tests'] = mov
 
+import hashlib
+for s in data['students']:
+    s['senha_hash'] = hashlib.sha256(f"studio{s['id']}".encode()).hexdigest()
+
 for name, obj in data.items():
     with open(os.path.join(OUT, f'{name}.json'), 'w', encoding='utf-8') as f:
         json.dump(obj, f, ensure_ascii=False, indent=1)

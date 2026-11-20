@@ -1,4 +1,24 @@
 import { db } from './data.js'
+import { changePassword } from './auth.js'
+
+export function TrocarSenha({ aluno }) {
+  const trocar = async () => {
+    const nova = prompt('Nova senha (mínimo 4 caracteres):')
+    if (nova === null) return
+    const confirmacao = prompt('Confirme a nova senha:')
+    if (nova !== confirmacao) {
+      alert('As senhas não conferem.')
+      return
+    }
+    const ok = await changePassword(aluno.id, nova)
+    alert(ok ? 'Senha alterada com sucesso!' : 'Senha inválida (mínimo 4 caracteres).')
+  }
+  return (
+    <button className="btn-ghost !px-3 !py-1.5" onClick={trocar} title="Trocar senha">
+      🔑 Trocar senha
+    </button>
+  )
+}
 
 const ITENS = [
   ['home', '🏠', 'Início'],
@@ -28,6 +48,7 @@ export default function Layout({ aluno, rota, onSair, children }) {
               <div className="text-sm font-semibold">{aluno.nomecompleto}</div>
               <div className="text-xs text-zinc-500">{aluno.n_velatual} · {aluno.xptotal} XP</div>
             </div>
+            <TrocarSenha aluno={aluno} />
             <button className="btn-ghost !px-3 !py-1.5" onClick={onSair}>Sair</button>
           </div>
         </div>

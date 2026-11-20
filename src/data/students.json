@@ -22,7 +22,8 @@
   "tempom_dioporsess_omin": 55.1,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "367151be2493a1f4dadf479bbe038ce89ef605b875e163c9ee8d6a38096c6d74"
  },
  {
   "id": 2,
@@ -47,7 +48,8 @@
   "tempom_dioporsess_omin": 55.2,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "1dd42020de013717d138aadeed836c04399f96f72fa00c44b56f00db7c531224"
  },
  {
   "id": 3,
@@ -72,7 +74,8 @@
   "tempom_dioporsess_omin": 55.3,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "64b404191143b8de599b7ffe4b39fde72e4b700d4b01f778da09d7bf9bd59293"
  },
  {
   "id": 4,
@@ -97,7 +100,8 @@
   "tempom_dioporsess_omin": 54.8,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "dc5d331d0189cd48928ff1755e12e2a7754273778a9c91d17d159fcd18517b83"
  },
  {
   "id": 5,
@@ -122,7 +126,8 @@
   "tempom_dioporsess_omin": 54.9,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "22d7e02fc280b7d30e8aa9767c6c9c552df266122059dcb3efff7bd6edab966a"
  },
  {
   "id": 6,
@@ -147,7 +152,8 @@
   "tempom_dioporsess_omin": 55,
   "classifica_oher_i": "Avançado Elite",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "fbc2014901fc799ee65f6e19236fc9c9de663e87044a84ca1db165a78fc86786"
  },
  {
   "id": 7,
@@ -172,7 +178,8 @@
   "tempom_dioporsess_omin": 55.2,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "6831d544b3a20b725e6af0e75d383f3ce3c886778340a31e39830c2bfc4209fa"
  },
  {
   "id": 8,
@@ -197,7 +204,8 @@
   "tempom_dioporsess_omin": 54.3,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "96d2131cc1f5af1e1e68fa14e5c03ae53067bca7a96cbde46f1789ff26ddc4a2"
  },
  {
   "id": 9,
@@ -222,7 +230,8 @@
   "tempom_dioporsess_omin": 54.5,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "dc4407ec648153c2afd9c1afcf514756c1284bb07eaf8128067db1e61398199e"
  },
  {
   "id": 10,
@@ -247,6 +256,7 @@
   "tempom_dioporsess_omin": 55,
   "classifica_oher_i": "Avançado",
   "data_nascimento": "",
-  "data_cadastro": ""
+  "data_cadastro": "",
+  "senha_hash": "298eead0bb22fd96468590893a0331d1838bd505b77f000870c4e05a80bbf25e"
  }
 ]
