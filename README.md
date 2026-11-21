@@ -44,6 +44,13 @@ foi o **modelo original** e não é uma dependência: o programa está embutido 
   e cadastro/login via Supabase Auth (REST, sem dependências). Para produção com dados
   sensíveis multi-dispositivo, migre o restante das contas/dados para o backend.
 
+## Equipe
+
+- **Administrador e professor** entram pela aba 🧑‍\u200d🏫 Equipe do login e têm duas abas: **Instrutor**
+  (painel, alertas, cronômetro, exports) e **👥 Alunos** (cadastro de alunos com nome, e-mail,
+  WhatsApp, objetivo, turno e senha inicial). **⚙️ Usuários** (papéis, aprovações,
+  redefinição de credenciais, Supabase) é exclusiva do administrador.
+
 ## Independência da planilha
 
 - O **programa de treinamento** (8 semanas × 4 fases, 48 sessões com blocos, exercícios,

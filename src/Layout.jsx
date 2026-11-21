@@ -35,11 +35,12 @@ const ITENS = [
 
 const ITENS_EQUIPE = [
   ['instrutor', '🧑‍🏫', 'Instrutor'],
+  ['alunos', '👥', 'Alunos'],
   ['usuarios', '⚙️', 'Usuários'],
 ]
 
 export default function Layout({ aluno, sessao, rota, onSair, children }) {
-  const equipe = sessao && (sessao.papel === 'admin' || sessao.papel === 'professor')
+  const equipe = sessao && (sessao.papel === 'admin' || sessao.papel === 'professor') || false
   const itens = equipe ? ITENS_EQUIPE : ITENS
   const papelLabel = { admin: 'Administrador', professor: 'Professor', aluno: 'Aluno' }
 

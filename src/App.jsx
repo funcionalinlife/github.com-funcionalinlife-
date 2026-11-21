@@ -10,6 +10,7 @@ import Saude from './pages/Saude.jsx'
 import Ranking from './pages/Ranking.jsx'
 import Instrutor from './pages/Instrutor.jsx'
 import Usuarios from './pages/Usuarios.jsx'
+import Alunos from './pages/Alunos.jsx'
 import SetupAdmin from './pages/SetupAdmin.jsx'
 import { todosAlunos } from './data.js'
 import { getSessao, clearSessao, temAdmin } from './usuarios.js'
@@ -24,6 +25,7 @@ const rotas = {
   ranking: Ranking,
   instrutor: Instrutor,
   usuarios: Usuarios,
+  alunos: Alunos,
 }
 
 function useHashRoute() {
@@ -88,7 +90,7 @@ export default function App() {
     sair()
     return null
   }
-  const rotaPadrao = rota === 'usuarios' ? 'home' : rota
+  const rotaPadrao = rota === 'usuarios' || rota === 'alunos' ? 'home' : rota
   const Pagina = rotas[rotaPadrao] || Home
   return (
     <Layout aluno={aluno} sessao={sessao} rota={rotaPadrao} onSair={sair}>
