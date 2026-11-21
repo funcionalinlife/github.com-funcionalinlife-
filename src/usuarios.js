@@ -62,6 +62,20 @@ export async function criarAdmin({ login, senha, nome, whatsapp, permissoes }) {
   return { ok: true, usuario: u }
 }
 
+export async function criarProfessor({ login, senha, nome, whatsapp }) {
+  if (!login || !nome || !senha) return { ok: false, erro: 'Nome, login (e-mail) e senha são obrigatórios.' }
+  if (!/\S+@\S+\.\S+/.test(String(login).trim())) return { ok: false, erro: 'Login deve ser um e-mail válido.' }
+  if (senha.length < 4) return { ok: false, erro: 'A senha deve ter no mínimo 4 caracteres.' }
+  const l = String(login).trim().toLowerCase()
+  if (getUsuarios().some((u) => u.login === l)) return { ok: false, erro: 'Já existe conta com este e-mail.' }
+  const u = await novoUsuario({
+    login: l, senha, nome, whatsapp,
+    papel: 'professor', status: 'ativo',
+    permissoes: ['instrutor', 'exportar'],
+  })
+  return { ok: true, usuario: u }
+}
+
 export async function entrarEquipe(login, senha) {
   const u = registro(login)
   if (!u || (u.papel !== 'admin' && u.papel !== 'professor'))

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Chip, SectionTitle } from '../ui.jsx'
 import { alunosGeridos, salvarAlunosGeridos, demoAtivo, alternarDemo, novoAlunoGerido, db } from '../data.js'
 import {
-  getUsuarios, aprovarUsuario, definirPapel, definirSenha, removerUsuario,
+  getUsuarios, aprovarUsuario, definirPapel, definirSenha, removerUsuario, criarProfessor,
   sbCfg, supabaseAtivo, salvarSbCfg, sbTeste, setSessao, sessaoAluno,
 } from '../usuarios.js'
 import { sha256hex } from '../auth.js'
@@ -129,11 +129,45 @@ function PainelCredenciais() {
   const [versao, setVersao] = useState(0)
   const atualizar = () => setVersao((v) => v + 1)
   const usuarios = getUsuarios()
+  const [prof, setProf] = useState({ nome: '', login: '', whatsapp: '', senha: '' })
+  const [profErro, setProfErro] = useState('')
+  const [profOk, setProfOk] = useState('')
+
+  const cadastrarProfessorApp = async () => {
+    setProfErro(''); setProfOk('')
+    const r = await criarProfessor({
+      nome: prof.nome.trim(),
+      login: prof.login,
+      whatsapp: prof.whatsapp.trim(),
+      senha: prof.senha,
+    })
+    if (!r.ok) return setProfErro(r.erro)
+    setProf({ nome: '', login: '', whatsapp: '', senha: '' })
+    setProfOk(`✅ Professor ${r.usuario.nome} cadastrado! Login: ${r.usuario.login} (entrar pela aba 🧑‍🏫 Equipe).`)
+    atualizar()
+  }
+
+  const field = 'rounded-xl border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm outline-none focus:border-lime-500/70'
 
   return (
     <div className="card">
       <SectionTitle>Gerenciamento de usuários e credenciais</SectionTitle>
-      <table className="data min-w-[820px]">
+
+      <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-4">
+        <div className="text-sm font-semibold text-zinc-200">Cadastrar professor</div>
+        <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+          <input className={field} placeholder="Nome completo *" value={prof.nome} onChange={(e) => setProf({ ...prof, nome: e.target.value })} />
+          <input className={field} placeholder="Login (e-mail) *" value={prof.login} onChange={(e) => setProf({ ...prof, login: e.target.value })} />
+          <input className={field} placeholder="WhatsApp" value={prof.whatsapp} onChange={(e) => setProf({ ...prof, whatsapp: e.target.value })} />
+          <input type="password" className={field} placeholder="Senha (mín. 4) *" value={prof.senha} onChange={(e) => setProf({ ...prof, senha: e.target.value })} onKeyDown={(e) => e.key === 'Enter' && cadastrarProfessorApp()} />
+          <button className="btn-primary" onClick={cadastrarProfessorApp}>＋ Cadastrar professor</button>
+        </div>
+        {(profErro || profOk) && (
+          <p className={`mt-2 text-xs ${profErro ? 'text-red-300' : 'text-lime-300'}`}>{profErro || profOk}</p>
+        )}
+      </div>
+
+      <table className="data mt-4 min-w-[820px]">
         <thead>
           <tr><th>Nome</th><th>Login (e-mail)</th><th>WhatsApp</th><th>Papel</th><th>Status</th><th>Ações</th></tr>
         </thead>
