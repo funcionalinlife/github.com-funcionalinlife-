@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { db } from './data.js'
+import { db, todosAlunos } from './data.js'
 import { verifyLogin } from './auth.js'
-import { getUsuarios, setSessao, sessaoAluno, entrarEquipe, cadastrarAluno, iniciarRecuperacao, concluirRecuperacao, supabaseAtivo } from './usuarios.js'
+import { getUsuarios, setSessao, sessaoAluno, entrarEquipe, cadastrarAluno, iniciarRecuperacao, concluirRecuperacao, supabaseAtivo, verificarSenhaAlunoGerido } from './usuarios.js'
 
 const MODOS = [
   ['aluno', '🎓 Aluno'],
@@ -17,24 +17,26 @@ export default function Login({ onEnter, onEquipe }) {
   const [form, setForm] = useState({ nome: '', email: '', whatsapp: '', senha: '', confirmar: '', codigo: '' })
   const [reset, setReset] = useState(null)
   const set = (k) => (e) => setForm({ ...form, [k]: e.target.value })
-  const alunos = db.students
+  const alunos = todosAlunos()
 
   const limpar = () => { setErro(''); setAviso('') }
 
   const entrarAluno = async () => {
     limpar()
-    const aluno = alunos.find((a) => String(a.email).trim().toLowerCase() === String(form.email || '').trim().toLowerCase())
+    const email = String(form.email || '').trim().toLowerCase()
+    const aluno = alunos.find((a) => String(a.email).trim().toLowerCase() === email)
     if (!aluno) {
-      const pendente = getUsuarios().find(
-        (x) => x.login === String(form.email || '').trim().toLowerCase() && x.status !== 'ativo'
-      )
+      const pendente = getUsuarios().find((x) => x.login === email && x.status !== 'ativo')
       return setErro(
         pendente
           ? 'Seu cadastro está Pendente — aguardando aprovação do administrador do studio.'
-          : 'E-mail não encontrado no cadastro do studio.'
+          : 'E-mail não encontrado. Faça o cadastro ou contate a recepção.'
       )
     }
-    if (!(await verifyLogin(form.senha, aluno.senha_hash, aluno.id))) return setErro('Senha incorreta. Tente novamente.')
+    const ok = aluno.exemplo
+      ? await verifyLogin(form.senha, aluno.senha_hash, aluno.id)
+      : await verificarSenhaAlunoGerido(aluno, form.senha)
+    if (!ok) return setErro('Senha incorreta. Tente novamente ou use a recuperação.')
     setSessao(sessaoAluno(aluno))
     onEnter(aluno)
   }
@@ -130,8 +132,8 @@ export default function Login({ onEnter, onEquipe }) {
               <input type="password" className={field} placeholder="••••••••" value={form.senha} onChange={set('senha')} onKeyDown={enter(entrarAluno)} />
               <button className="btn-primary mt-4 w-full" onClick={entrarAluno}>Entrar no portal</button>
               <p className="mt-4 text-xs leading-relaxed text-zinc-500">
-                Senha inicial da recepção (demonstração): <code className="rounded bg-zinc-800 px-1">studio&lt;nº do aluno&gt;</code> —
-                ex.: <code className="rounded bg-zinc-800 px-1">studio1</code> para Ana Beatriz. Altere-a pelo 🔑 no header ou via recuperação.
+                Alunos de exemplo (modelo da planilha): senha <code className="rounded bg-zinc-800 px-1">studio&lt;nº&gt;</code>.
+                Alunos cadastrados pelo admin: usam a senha inicial definida por ele — altere pelo 🔑 ou via recuperação.
               </p>
             </>
           )}
@@ -182,10 +184,10 @@ export default function Login({ onEnter, onEquipe }) {
 
         {modo === 'aluno' && (
           <div className="mt-6 card">
-            <div className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Alunos cadastrados</div>
+            <div className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Alunos do programa</div>
             <ul className="mt-2 divide-y divide-zinc-800 text-sm">
               {alunos.map((a) => (
-                <li key={a.id} className="flex items-center justify-between py-2">
+                <li key={`${a.exemplo ? 'ex' : 'al'}-${a.id}`} className="flex items-center justify-between py-2">
                   <button
                     className="text-left hover:text-lime-300"
                     onClick={() => { setForm({ ...form, email: a.email }); limpar() }}
@@ -193,7 +195,7 @@ export default function Login({ onEnter, onEquipe }) {
                     <span className="font-medium">{a.nomecompleto}</span>
                     <span className="ml-2 text-xs text-zinc-500">{a.email}</span>
                   </button>
-                  <span className="chip">{a.n_velatual}</span>
+                  <span className={`chip ${a.exemplo ? 'opacity-60' : ''}`}>{a.exemplo ? 'Exemplo' : a.n_velatual}</span>
                 </li>
               ))}
             </ul>

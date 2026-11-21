@@ -100,3 +100,38 @@ export const youtubeLink = (exercicio) =>
   (db.videoLinks && db.videoLinks[exercicio])
     ? db.videoLinks[exercicio]
     : `https://www.youtube.com/results?search_query=${encodeURIComponent(exercicio + ' exercício')}`
+
+// ----- alunos geridos pelo app (a planilha é apenas o modelo) -----
+
+export const alunosGeridos = () => {
+  try { return JSON.parse(localStorage.getItem('portal_alunos') || '[]') } catch { return [] }
+}
+export const salvarAlunosGeridos = (lista) => localStorage.setItem('portal_alunos', JSON.stringify(lista))
+export const demoAtivo = () => localStorage.getItem('portal_demo') !== '0'
+export const alternarDemo = () => {
+  localStorage.setItem('portal_demo', demoAtivo() ? '0' : '1')
+  return demoAtivo()
+}
+
+export const todosAlunos = () => [
+  ...alunosGeridos(),
+  ...(demoAtivo() ? db.students.map((s) => ({ ...s, exemplo: true })) : []),
+]
+
+export const novoAlunoGerido = ({ nome, email, whatsapp, objetivo, turno }) => ({
+  id: Date.now(),
+  nomecompleto: nome,
+  email: String(email).trim().toLowerCase(),
+  telefone: whatsapp || '',
+  objetivoprincipal: objetivo || 'Treino de força',
+  turnopreferido: turno || 'Noturno',
+  hor_riopreferido: '19:00',
+  n_velatual: 'Recruta',
+  avataratual: 'Recruta',
+  xptotal: 0,
+  semanascompresen_a100: 0,
+  posi_onoranking: null,
+  tempototaldetreinomin: 0,
+  tempom_dioporsess_omin: 0,
+  datadecadastro: new Date().toLocaleDateString('pt-BR'),
+})

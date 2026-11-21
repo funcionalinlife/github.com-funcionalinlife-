@@ -1,4 +1,5 @@
 import { sha256hex, changePassword } from './auth.js'
+import { todosAlunos } from './data.js'
 
 const KEY = 'portal_usuarios'
 const SESSAO_KEY = 'portal_sessao'
@@ -91,7 +92,22 @@ export async function cadastrarAluno({ nome, email, senha, whatsapp }, alunoVinc
 }
 
 export async function aprovarUsuario(login) {
-  putUsuarios(getUsuarios().map((u) => (u.login === login ? { ...u, status: 'ativo' } : u)))
+  const vinculo = todosAlunos().find((a) => String(a.email).trim().toLowerCase() === String(login).toLowerCase())
+  putUsuarios(
+    getUsuarios().map((u) =>
+      u.login === login
+        ? { ...u, status: 'ativo', aluno_id: u.aluno_id ?? (vinculo ? vinculo.id : null) }
+        : u
+    )
+  )
+}
+
+export async function verificarSenhaAlunoGerido(aluno, senha) {
+  const override = localStorage.getItem(`portal_senha_${aluno.id}`)
+  const u = registro(aluno.email)
+  const alvo = override || (u && u.senha_hash)
+  if (!alvo) return false
+  return (await sha256hex(senha)) === alvo
 }
 
 export async function definirPapel(login, papel) {

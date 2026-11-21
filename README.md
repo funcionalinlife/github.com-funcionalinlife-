@@ -1,12 +1,14 @@
 # Portal do Aluno — Studio Funcional In Life
 
 Aplicação web ( React + Vite + Tailwind v4 ) do **Portal do Aluno** para o programa de
-treinamento gamificado de 8 semanas. Os dados vêm diretamente da planilha de gestão
-(`plano_treino_studio.xlsx`), extraídos para JSON em `src/data/`.
+treinamento gamificado de 8 semanas. A planilha de gestão (`plano_treino_studio.xlsx`)
+foi o **modelo original** e não é uma dependência: o programa está embutido no app
+(`src/data/`) e a gestão de alunos/credenciais é feita dentro do próprio sistema.
 
 ## Funcionalidades
 
-- **Login** por e-mail cadastrado (10 alunos de demonstração).
+- **Login** com 4 modos: Aluno (exemplos ou cadastrados pelo admin), Equipe
+  (admin/professor), Cadastrar-se e Recuperar senha.
 - **Início**: avatar/nível de herói, progresso de XP, posição no ranking, adesão, streak,
   treino do dia (por dia da semana) e gráfico de XP por semana.
 - **Meus Treinos**: programa completo 8 semanas × 4 fases, sessões por dia com blocos,
@@ -41,6 +43,21 @@ treinamento gamificado de 8 semanas. Os dados vêm diretamente da planilha de ge
   projeto gratuito do Supabase (Settings → API) para ativar **recuperação por e-mail real**
   e cadastro/login via Supabase Auth (REST, sem dependências). Para produção com dados
   sensíveis multi-dispositivo, migre o restante das contas/dados para o backend.
+
+## Independência da planilha
+
+- O **programa de treinamento** (8 semanas × 4 fases, 48 sessões com blocos, exercícios,
+  séries/reps, PSE, links de vídeo) está **embutido no app** e vale para qualquer aluno
+  cadastrado.
+- **Alunos são cadastrados no app** (⚙️ Usuários → Alunos do programa), com credenciais
+  próprias, sem precisar existir em planilha alguma.
+- Os 10 alunos com dados preenchidos são **dados de exemplo**: podem ser ocultados com
+  um clique no interruptor da aba Usuários (`portal_demo`), deixando o portal só com os
+  alunos reais.
+- Páginas de evolução/avaliações/saúde mostram estados vazios amigáveis para alunos sem
+  registros.
+- `extract_data.py` permanece como **importador opcional**: se você editar a planilha
+  original, rodá-lo regenera os dados de exemplo (`src/data/`).
 
 ## Como rodar
 

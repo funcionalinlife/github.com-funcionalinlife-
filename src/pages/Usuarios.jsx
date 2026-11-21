@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import { Chip, SectionTitle } from '../ui.jsx'
-import { db } from '../data.js'
+import { alunosGeridos, salvarAlunosGeridos, demoAtivo, alternarDemo, novoAlunoGerido, db } from '../data.js'
 import {
   getUsuarios, aprovarUsuario, definirPapel, definirSenha, removerUsuario,
-  sbCfg, supabaseAtivo, salvarSbCfg, sbTeste,
+  sbCfg, supabaseAtivo, salvarSbCfg, sbTeste, setSessao, sessaoAluno,
 } from '../usuarios.js'
+import { sha256hex } from '../auth.js'
 
 const PAPEL_TONE = { admin: 'red', professor: 'yellow', aluno: 'green' }
 
@@ -12,6 +13,9 @@ export default function Usuarios() {
   const [versao, setVersao] = useState(0)
   const atualizar = () => setVersao((v) => v + 1)
   const usuarios = getUsuarios()
+  const geridos = alunosGeridos()
+  const [novo, setNovo] = useState({ nome: '', email: '', whatsapp: '', objetivo: '', senha: '' })
+  const [novoErro, setNovoErro] = useState('')
 
   const cfg = sbCfg() || { url: '', key: '' }
   const [sb, setSb] = useState({ url: cfg.url, key: cfg.key })
@@ -25,6 +29,47 @@ export default function Usuarios() {
   }
 
   const detalhesAluno = (u) => db.students.find((a) => Number(a.id) === Number(u.aluno_id))
+
+  const cadastrarAlunoApp = async () => {
+    setNovoErro('')
+    const email = String(novo.email || '').trim().toLowerCase()
+    if (!novo.nome.trim() || !email) return setNovoErro('Nome e e-mail são obrigatórios.')
+    if (novo.senha.length < 4) return setNovoErro('A senha inicial deve ter no mínimo 4 caracteres.')
+    if (usuarios.some((u) => u.login === email) || geridos.some((a) => a.email === email)
+      || db.students.some((s) => String(s.email).trim().toLowerCase() === email))
+      return setNovoErro('Já existe aluno/conta com este e-mail.')
+    const aluno = novoAlunoGerido({ nome: novo.nome.trim(), email, whatsapp: novo.whatsapp, objetivo: novo.objetivo })
+    salvarAlunosGeridos([...geridos, aluno])
+    const hash = await sha256hex(novo.senha)
+    localStorage.setItem(
+      'portal_usuarios',
+      JSON.stringify([
+        { login: email, nome: aluno.nomecompleto, whatsapp: novo.whatsapp || '', papel: 'aluno', status: 'ativo',
+          permissoes: [], aluno_id: aluno.id, criado_em: new Date().toISOString(), senha_hash: hash },
+        ...getUsuarios(),
+      ])
+    )
+    setNovo({ nome: '', email: '', whatsapp: '', objetivo: '', senha: '' })
+    atualizar()
+  }
+
+  const removerAlunoApp = (aluno) => {
+    if (!window.confirm(`Remover ${aluno.nomecompleto} e sua conta?`)) return
+    salvarAlunosGeridos(geridos.filter((a) => a.id !== aluno.id))
+    localStorage.setItem(
+      'portal_usuarios',
+      JSON.stringify(getUsuarios().filter((u) => u.login !== aluno.email))
+    )
+    atualizar()
+  }
+
+  const entrarComo = (aluno) => {
+    const s = sessaoAluno(aluno)
+    setSessao(s)
+    localStorage.setItem('portal_user_id', String(aluno.id))
+    window.location.hash = '#/home'
+    window.location.reload()
+  }
 
   return (
     <div className="space-y-6">
@@ -99,6 +144,61 @@ export default function Usuarios() {
         <p className="mt-3 text-xs text-zinc-500">
           Cadastros de alunos feitos no próprio portal entram como <b>Pendente</b> e só conseguem entrar após a aprovação
           aqui. Alunos já presentes na planilha entram com a senha padrão <code className="rounded bg-zinc-800 px-1">studio&lt;nº&gt;</code>.
+        </p>
+      </div>
+
+      <div className="card">
+        <SectionTitle right={(
+          <label className="flex cursor-pointer items-center gap-2 text-xs text-zinc-400">
+            <input type="checkbox" className="accent-lime-500" checked={demoAtivo()} onChange={() => { alternarDemo(); atualizar() }} />
+            Dados de exemplo (modelo original da planilha)
+          </label>
+        )}>
+          Alunos do programa
+        </SectionTitle>
+
+        <div className="rounded-xl border border-zinc-800 bg-zinc-900 p-4">
+          <div className="text-sm font-semibold text-zinc-200">Cadastrar novo aluno</div>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            <input className="rounded-xl border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm outline-none focus:border-lime-500/70" placeholder="Nome completo" value={novo.nome} onChange={(e) => setNovo({ ...novo, nome: e.target.value })} />
+            <input className="rounded-xl border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm outline-none focus:border-lime-500/70" placeholder="E-mail" value={novo.email} onChange={(e) => setNovo({ ...novo, email: e.target.value })} />
+            <input className="rounded-xl border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm outline-none focus:border-lime-500/70" placeholder="WhatsApp" value={novo.whatsapp} onChange={(e) => setNovo({ ...novo, whatsapp: e.target.value })} />
+            <input className="rounded-xl border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm outline-none focus:border-lime-500/70" placeholder="Objetivo (ex.: Treino de força)" value={novo.objetivo} onChange={(e) => setNovo({ ...novo, objetivo: e.target.value })} />
+            <input type="password" className="rounded-xl border border-zinc-700 bg-zinc-800 px-3 py-2 text-sm outline-none focus:border-lime-500/70" placeholder="Senha inicial (mín. 4)" value={novo.senha} onChange={(e) => setNovo({ ...novo, senha: e.target.value })} />
+            <button className="btn-primary" onClick={cadastrarAlunoApp}>＋ Cadastrar aluno</button>
+          </div>
+          {novoErro && <p className="mt-2 rounded-lg border border-red-800/60 bg-red-900/20 px-3 py-2 text-xs text-red-300">{novoErro}</p>}
+        </div>
+
+        <table className="data mt-4 min-w-[720px]">
+          <thead>
+            <tr><th>Aluno</th><th>E-mail</th><th>WhatsApp</th><th>Objetivo</th><th>Cadastro</th><th>Ações</th></tr>
+          </thead>
+          <tbody>
+            {geridos.length === 0 && (
+              <tr><td colSpan="6" className="py-5 text-center text-sm text-zinc-400">Nenhum aluno cadastrado pelo app ainda.</td></tr>
+            )}
+            {geridos.map((a) => (
+              <tr key={a.id}>
+                <td className="whitespace-nowrap font-medium">{a.nomecompleto}</td>
+                <td className="text-xs text-zinc-400">{a.email}</td>
+                <td className="text-xs text-zinc-400">{a.telefone || '—'}</td>
+                <td className="max-w-40 truncate text-xs text-zinc-400">{a.objetivoprincipal}</td>
+                <td className="text-xs text-zinc-500">{a.datadecadastro}</td>
+                <td className="whitespace-nowrap">
+                  <div className="flex gap-1">
+                    <button className="btn-ghost px-2 py-1 text-xs" onClick={() => entrarComo(a)} title="Entra no portal como este aluno (substitui sua sessão)">👁️ Entrar como</button>
+                    <button className="btn-ghost px-2 py-1 text-xs" onClick={() => removerAlunoApp(a)}>🗑️</button>
+                  </div>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="mt-3 text-xs text-zinc-500">
+          Alunos cadastrados aqui já entram direto no portal com a senha inicial definida (não dependem da planilha).
+          O programa de treino (8 semanas × 4 fases) vale para todos, pois está embutido como modelo do app;
+          "Entrar como" sai da sua sessão de admin para visualizar o portal pelo olhar do aluno.
         </p>
       </div>
 

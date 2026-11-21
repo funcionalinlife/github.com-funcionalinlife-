@@ -11,7 +11,7 @@ import Ranking from './pages/Ranking.jsx'
 import Instrutor from './pages/Instrutor.jsx'
 import Usuarios from './pages/Usuarios.jsx'
 import SetupAdmin from './pages/SetupAdmin.jsx'
-import { db } from './data.js'
+import { todosAlunos } from './data.js'
 import { getSessao, clearSessao, temAdmin } from './usuarios.js'
 
 const rotas = {
@@ -83,7 +83,7 @@ export default function App() {
     )
   }
 
-  const aluno = db.students.find((a) => Number(a.id) === Number(userId))
+  const aluno = todosAlunos().find((a) => Number(a.id) === Number(userId))
   if (!aluno) {
     sair()
     return null

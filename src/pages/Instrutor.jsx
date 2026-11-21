@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Chip, SectionTitle } from '../ui.jsx'
-import { db, byId, metricsAluno } from '../data.js'
+import { db, byId, metricsAluno, todosAlunos } from '../data.js'
 import { downloadCSV } from '../exportUtils.js'
 
 const fmt = (ms) => {
@@ -81,7 +81,7 @@ function Cronometro() {
 }
 
 const MASCI = (s, k, def = '—') => {
-  const v = String(s[k] || '')
+  const v = String((s && s[k]) || '')
   if (v.includes('Alto') || v.includes('✅') || v.includes('🔴')) return 'red'
   if (v.includes('Moderado') || v.includes('⚠') || v.includes('🟡')) return 'yellow'
   return def === '—' ? 'green' : def
@@ -102,7 +102,7 @@ const riscoFlags = (a) => {
 function RevisaoRegistros() {
   const [revisoes, setRevisoes] = useState(() => JSON.parse(localStorage.getItem('portal_revisoes') || '{}'))
 
-  const registros = db.students.map((a) => {
+  const registros = todosAlunos().map((a) => {
     const feitos = JSON.parse(localStorage.getItem(`portal_feitos_${a.id}`) || '{}')
     const grupos = {}
     for (const key of Object.keys(feitos)) {
@@ -176,7 +176,7 @@ function RevisaoRegistros() {
 }
 
 export default function Instrutor() {
-  const alunos = db.students
+  const alunos = todosAlunos()
   const [filtro, setFiltro] = useState('todos')
   const flagsById = useMemo(() => Object.fromEntries(alunos.map((a) => [a.id, riscoFlags(a)])), [alunos])
   const FILTROS = [
