@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { db, todosAlunos } from './data.js'
 import { verifyLogin } from './auth.js'
-import { getUsuarios, setSessao, sessaoAluno, entrarEquipe, cadastrarAluno, iniciarRecuperacao, concluirRecuperacao, supabaseAtivo, verificarSenhaAlunoGerido } from './usuarios.js'
+import { setSessao, sessaoAluno, entrarEquipe, cadastrarAluno, iniciarRecuperacao, concluirRecuperacao, supabaseAtivo, verificarSenhaAlunoGerido, resolverAlunoParaLogin } from './usuarios.js'
 
 const MODOS = [
   ['aluno', '🎓 Aluno'],
@@ -24,15 +24,16 @@ export default function Login({ onEnter, onEquipe }) {
   const entrarAluno = async () => {
     limpar()
     const email = String(form.email || '').trim().toLowerCase()
-    const aluno = alunos.find((a) => String(a.email).trim().toLowerCase() === email)
-    if (!aluno) {
-      const pendente = getUsuarios().find((x) => x.login === email && x.status !== 'ativo')
+    const r = await resolverAlunoParaLogin(email)
+    if (!r.ok) {
       return setErro(
-        pendente
+        r.motivo === 'pendente'
           ? 'Seu cadastro está Pendente — aguardando aprovação do administrador do studio.'
-          : 'E-mail não encontrado. Faça o cadastro ou contate a recepção.'
+          : 'E-mail não encontrado. Confira se digitou exatamente o e-mail do cadastro (ou cadastre-se na aba ✨ Cadastrar).'
       )
     }
+    const aluno = r.aluno
+    if (!form.senha) return setErro('Digite a senha.')
     const ok = aluno.exemplo
       ? await verifyLogin(form.senha, aluno.senha_hash, aluno.id)
       : await verificarSenhaAlunoGerido(aluno, form.senha)

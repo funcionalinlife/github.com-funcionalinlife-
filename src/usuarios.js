@@ -1,5 +1,5 @@
 import { sha256hex, changePassword } from './auth.js'
-import { todosAlunos } from './data.js'
+import { todosAlunos, alunosGeridos, salvarAlunosGeridos, novoAlunoGerido } from './data.js'
 
 const KEY = 'portal_usuarios'
 const SESSAO_KEY = 'portal_sessao'
@@ -92,11 +92,17 @@ export async function cadastrarAluno({ nome, email, senha, whatsapp }, alunoVinc
 }
 
 export async function aprovarUsuario(login) {
-  const vinculo = todosAlunos().find((a) => String(a.email).trim().toLowerCase() === String(login).toLowerCase())
+  const email = String(login).trim().toLowerCase()
+  let vinculo = todosAlunos().find((a) => String(a.email).trim().toLowerCase() === email)
+  if (!vinculo) {
+    const conta = getUsuarios().find((u) => String(u.login).toLowerCase() === email)
+    vinculo = novoAlunoGerido({ nome: conta?.nome || email, email, whatsapp: conta?.whatsapp, objetivo: 'Treino de força' })
+    salvarAlunosGeridos([...alunosGeridos(), vinculo])
+  }
   putUsuarios(
     getUsuarios().map((u) =>
       u.login === login
-        ? { ...u, status: 'ativo', aluno_id: u.aluno_id ?? (vinculo ? vinculo.id : null) }
+        ? { ...u, status: 'ativo', aluno_id: u.aluno_id ?? vinculo.id }
         : u
     )
   )
@@ -108,6 +114,20 @@ export async function verificarSenhaAlunoGerido(aluno, senha) {
   const alvo = override || (u && u.senha_hash)
   if (!alvo) return false
   return (await sha256hex(senha)) === alvo
+}
+
+export async function resolverAlunoParaLogin(email) {
+  const e = String(email || '').trim().toLowerCase()
+  const achado = todosAlunos().find((a) => String(a.email).trim().toLowerCase() === e)
+  if (achado) return { ok: true, aluno: achado }
+  const u = registro(e)
+  if (!u) return { ok: false, motivo: 'inexistente' }
+  if (u.status !== 'ativo') return { ok: false, motivo: 'pendente' }
+  if (u.papel !== 'aluno') return { ok: false, motivo: 'inexistente' }
+  const aluno = novoAlunoGerido({ nome: u.nome, email: e, whatsapp: u.whatsapp, objetivo: 'Treino de força' })
+  salvarAlunosGeridos([...alunosGeridos(), aluno])
+  putUsuarios(getUsuarios().map((x) => (String(x.login).toLowerCase() === e ? { ...x, aluno_id: aluno.id } : x)))
+  return { ok: true, aluno }
 }
 
 export async function definirPapel(login, papel) {
